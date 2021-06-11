@@ -1,0 +1,1 @@
+This is a small project demonstrating CSS layout skills by recreating the google homepage.
