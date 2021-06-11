@@ -9,13 +9,13 @@
       rel="stylesheet">
     <style>
         html {
-            font-size: 62.5%;
+            font-size: 70%;
         }
         body {
             font-family: arial, sans-serif;
             font-size: 1.6rem;
             line-height: 1.6;
-            color: rgb(34, 34, 34);
+            color: rgb(65, 65, 65);
         }
 
         a {
@@ -54,12 +54,13 @@
             color: white;
             border-radius: 4px;
             padding: 9px 23px 9px 23px;
+            text-align: center;
         }
 
         #apps {
             margin-right: 1.5rem;
-            margin-top: 9px;
             font-family: 'Material Icons';
+            font-size: 2.5rem;
         }
 
         .nav-link {
@@ -115,15 +116,25 @@
        }
 
        .buttons {
+           
            display: flex;
            align-items: center;
            justify-content: center;
            margin-top: 2.5rem;
        }
 
-       .search_button {
-           min-width: 54px;
-           
+       .search-button {
+            color: inherit;
+            min-width: 54px;
+            height: 50px;
+            padding: 0 2rem;
+            border: none;
+            margin: 0.7rem;
+            font-size: 1.4rem;
+       }
+
+       .search-button:hover {
+            border: 0.1px solid #ddd;
        }
 
     </style>
@@ -139,10 +150,9 @@
         <div id="right-nav">
             <a class="nav-link" href="#">Gmail</a>
             <a class="nav-link" href="#">Images</a>
-            <a id="apps" href="#">
-                apps
+            <a id="apps" href="#">apps</a>
             <a id="sign-in" href="#">Sign In</a>  
-            </a>
+            
         </div>
     </nav>
     
